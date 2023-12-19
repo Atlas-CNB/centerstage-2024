@@ -118,9 +118,9 @@ public class TeleOP_2024_Craiova extends OpMode
         boolean leftUTurn = false;
         boolean rightUturn = false;
 
-        if(gamepad1.dpad_right)
+        if(gamepad1.right_bumper)
             rightUturn = true;
-        if(gamepad1.dpad_left)
+        if(gamepad1.left_bumper)
             leftUTurn = true;
 
         if(!leftUTurn && !rightUturn) {
